@@ -1,0 +1,11 @@
+Create an interface named Measurable with methods named getArea and getType.
+getType should return a String describing which type of shape it is.
+Create Circle, Triangle, and Square classes, which each implement Measurable.
+Each should contain the fields required to calculate the shape’s area.
+ For example, circle should have a radius field.
+Add a constructor to each which allows the client to set the fields.
+getArea should calculate and return the shape’s area.
+Hint: Use Math.PI when calculating the circle’s area.
+In your Main.java, add a method that takes a reference to a Measurable object
+ as an argument and prints its type and its area.
+ In your main method, create one of each shape type and pass each to this method.
